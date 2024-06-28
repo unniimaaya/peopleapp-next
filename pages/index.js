@@ -27,14 +27,12 @@ const Home = ({ people, nextPage, prevPage }) => {
 
   return (
     <div className={styles.container}>
-      <h1>Star Wars Characters</h1>
+      <h1 className={styles.h1_style}>Star Wars Characters</h1>
       <ul className={styles.list}>
         {people.map((person, index) => (
           <div className={styles.displayflex} key={index?.url}>
             <li className={styles.listItem}>
-              <Link href={`/person/${person.name}`} legacyBehavior>
-                <a> {person.name}</a>
-              </Link>
+              <Link href={`/person/${person.name}`}>{person.name}</Link>
             </li>
             <span onClick={() => handleFavorite(person)}>
               {favorites.includes(person.name) ? <FaHeart /> : <FaRegHeart />}
