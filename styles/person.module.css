@@ -1,0 +1,32 @@
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+    border: 1px solid rgb(11, 135, 177);
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+ .ptitle {
+    margin: 10px 0;
+  }
+
+  .list_styles_movie{
+    list-style-type: none;
+    padding: 0;
+  }
+  .movie_card{
+    padding: 15px;
+    max-width: 200px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(11, 135, 177);
+  }
+  
